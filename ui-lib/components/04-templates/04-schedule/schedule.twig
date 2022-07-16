@@ -1,0 +1,49 @@
+<body class="js no-touch t-event-dashboard">
+    {% include '@header' %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-8">
+                {% include '@breadcrumb' %}
+            </div>
+        </div>
+        <div class="row align-items-center my-2">
+            <div class="col-8">
+                <div class="d-flex">
+                    {% for attendee in attendees %}
+                        {% include '@attendee-details' with {'attendeeName':attendee.name, 'attendeeCompany':attendee.company} %}
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-4 text-right">
+                <button class="button button-iconised"><i class="icon-arrow"></i>Back</button>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-12">
+                <div class="d-flex">
+                    <div class="stat-group">
+                        <div class="stat">
+                            <span>0</span>
+                            <span>Meetings Scheduled</span>
+                        </div>
+                        <div class="stat">
+                            <span>0</span>
+                            <span>Workshop Places Scheduled</span>
+                        </div>
+                    </div>
+                    <div class="stat-group">
+                        <div class="stat c-orange">
+                            <span>0%</span>
+                            <span>Average Meeting Score</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                {% include '@table--schedule' %}
+            </div>
+        </div>
+    </div>
+</body>

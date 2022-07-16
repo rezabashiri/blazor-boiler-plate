@@ -1,0 +1,47 @@
+.Prose .f-open-sans-regular {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.Prose .f-open-sans-italic {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.Prose .f-open-sans-semibold {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Prose .f-source-sans-pro-light {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.Prose .f-source-sans-pro-regular {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+.Prose .f-source-sans-pro-semibold {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.c-white { color: rgb(255, 255, 255); }
+
+.b-primary { background-color: rgb(75, 31, 207); }
+.b-secondary { background-color: rgb(240, 240, 240); }
+.b-light-gray { background-color: rgb(242, 242, 242); }
+.b-lighter-gray { background-color: rgb(245, 245, 245); }
+.b-off-white { background-color: rgb(250, 250, 250); }
+.b-white { background-color: rgb(255, 255, 255); }
+.b-dark-purple { background-color: rgb(59, 24, 163); }
+.b-darker-purple { background-color: rgb(126, 122, 153); }
+.b-red { background-color: rgb(228, 204, 202); }
+.b-green { background-color: rgb(200, 237, 203); }
+.b-orange { background-color: rgb(243, 183, 96); }

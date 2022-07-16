@@ -1,0 +1,10 @@
+﻿@page "/"
+@attribute [Authorize]
+<PageTitle>Index</PageTitle>
+
+<AuthorizeView >
+    <Authorized >
+        Welcome @context.User.Identity.Name
+    </Authorized>
+
+</AuthorizeView>

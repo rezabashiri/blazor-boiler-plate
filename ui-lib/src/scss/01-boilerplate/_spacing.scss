@@ -1,0 +1,48 @@
+/* Spacing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+$spacer: 1rem !default;
+$spacer-x: $spacer !default;
+$spacer-y: $spacer !default;
+$spacers: (
+    "0": (x: 0, y: 0),
+    "h": (x: ($spacer-x * .5), y: ($spacer-y * .5)),
+    "1": (x: $spacer-x, y: $spacer-y),
+    "1h": (x: ($spacer-x * 1.5), y: ($spacer-y * 1.5)),
+    "2": (x: ($spacer-x * 2), y: ($spacer-y * 2)),
+    "2h": (x: ($spacer-x * 2.5), y: ($spacer-y * 2.5)),
+    "3": (x: ($spacer-x * 3), y: ($spacer-y * 3)),
+    "4": (x: ($spacer-x * 4), y: ($spacer-y * 4)),
+    "5": (x: ($spacer-x * 5), y: ($spacer-y * 5)),
+    "8": (x: ($spacer-x * 8), y: ($spacer-y * 8)),
+    "10": (x: ($spacer-x * 10), y: ($spacer-y * 10)),
+) !default;
+
+@each $prop, $abbrev in (margin: m, padding: p) {
+    @each $size, $lengths in $spacers {
+        $length-x: map-get($lengths, x);
+        $length-y: map-get($lengths, y);
+
+        .#{$abbrev}-#{$size} { #{$prop}: $length-y $length-x; }
+        .#{$abbrev}t-#{$size} { #{$prop}-top: $length-y; }
+        .#{$abbrev}r-#{$size} { #{$prop}-right: $length-x; }
+        .#{$abbrev}b-#{$size} { #{$prop}-bottom: $length-y; }
+        .#{$abbrev}l-#{$size} { #{$prop}-left: $length-x; }
+
+        // Axes
+        .#{$abbrev}x-#{$size} {
+            #{$prop}-right: $length-x;
+            #{$prop}-left: $length-x;
+        }
+        .#{$abbrev}y-#{$size} {
+            #{$prop}-top: $length-y;
+            #{$prop}-bottom: $length-y;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .mt-md-2h{
+        margin-top: 1.5rem;
+    }
+}

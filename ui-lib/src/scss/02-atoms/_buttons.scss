@@ -1,0 +1,43 @@
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.button {
+    &:focus,
+    &:hover { background-color: color("darker-purple"); }
+    &.button-clear {
+        color: color("primary");
+        transition: all $transition-default $animation-speed-fast;
+        &:focus,
+        &:hover { color: color("darker-purple"); }
+    }
+}
+
+.button.button-iconised {
+    padding-left: 1.2rem;
+    i { margin-right: .7rem; }
+}
+
+.button.button-disabled {
+    opacity: .3;
+    pointer-events: none;
+}
+
+.button.button-important {
+    background-color: color("red");
+    border-color: color("red");
+    &:focus,
+    &:hover { background-color: lighten(color("red"), 20%); }
+}
+
+.button-group .button {
+    margin-right: 1.5rem;
+    &:last-child { margin-right: 0; }
+}
+
+.row-action-button {
+    margin: 0 2rem .8rem 0;
+}
+
+.add-buyer-button {
+    margin-left: 2rem;
+}

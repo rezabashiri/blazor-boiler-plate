@@ -1,0 +1,29 @@
+{
+    "title": "Table Header",
+    "context": {
+        "thText": "Attendees",
+        "thTabs": [
+            {
+                "text": "Buyers"
+            },
+            {
+                "text": "Suppliers"
+            },
+            {
+                "text": "Workshops"
+            }
+        ],
+        "thInputIcon": "search",
+        "thInputName": "search",
+        "thInputPlaceholder": "Search"
+    },
+    "variants": [
+        {
+            "name": "Plain",
+            "context": {
+                "thText": "Schedule: 25th September 2019",
+                "thDescription": "Meetings Scheduled: 12/14"
+            }
+        }
+    ]
+}

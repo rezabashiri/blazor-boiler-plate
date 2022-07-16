@@ -1,0 +1,23 @@
+{
+    "title": "Breadcrumb",
+    "context": {
+        "breadcrumbItems": [
+            {
+                "text": "Events",
+                "link": "http://example.com/"
+            },
+            {
+                "text": "PRIVATE MICE Vienna 2019",
+                "link": "http://example.com/"
+            },
+            {
+                "text": "Natalie Cooper",
+                "link": "http://example.com/"
+            },
+            {
+                "text": "Wed 25th Sept 2019  09:30–09:45"
+            }
+        ]
+    },
+    "status": "exported"
+}

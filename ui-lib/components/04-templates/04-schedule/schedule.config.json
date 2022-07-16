@@ -1,0 +1,211 @@
+{
+    "title": "Schedule",
+    "context": {
+        "usersText": "Users",
+        "usersLink": "http://example.com/",
+        "userName": "Geoff Somner",
+        "attendees": [
+            {
+                "name": "Dunja Berger",
+                "company": "Coca Cola"
+            },
+            {
+                "name": "Natalie Cooper",
+                "company": "Blue Line Events"
+            }
+        ],
+        "isActive": false,
+        "menuItems": [
+            {
+                "text": "Edit Profile",
+                "link": "http://example.com/"
+            },
+            {
+                "text": "Change Password",
+                "link": "http://example.com/"
+            },
+            {
+                "text": "Logout",
+                "link": "http://example.com/"
+            }
+        ],
+        "breadcrumbItems": [
+            {
+                "text": "Events",
+                "link": "http://example.com/"
+            },
+            {
+                "text": "Event Dashboard",
+                "link": "http://example.com/"
+            },
+            {
+                "text": "Supplier Schedule"
+            }
+        ],
+        "eventsHeadingText": "PRIVATE MICE Vienna 2019 (Austria)",
+        "eventsParaText": "23rd Sept - 26th Sept 2019",
+        "tableText": "Schedules",
+        "tableTabs": [
+            {
+                "text": "Buyers"
+            },
+            {
+                "text": "Suppliers"
+            },
+            {
+                "text": "Workshops"
+            }
+        ],
+        "tableInputIcon": "search",
+        "tableInputName": "search",
+        "tableInputPlaceholder": "Search",
+        "tableHeader": true,
+        "table": {
+            "tableText": "Schedule: 25th September 2019",
+            "tableDescription": "Meetings Scheduled: 12/14",
+            "headers": [
+                {
+                    "title": "Time"
+                },
+                {
+                    "title": "Type"
+                },
+                {
+                    "title": "Company"
+                },
+                {
+                    "title": "Contact / Title"
+                },
+                {
+                    "title": "Location"
+                },
+                {
+                    "title": "Meeting Score"
+                }
+            ],
+            "rows": [
+                {
+                    "cols": [
+                        {
+                            "value": "09:00 - 09:15"
+                        },
+                        {
+                            "value": "-"
+                        },
+                        {
+                            "value": "-"
+                        },
+                        {
+                            "value": "-"
+                        },
+                        {
+                            "value": "-"
+                        },
+                        {
+                            "value": "-"
+                        }
+                    ],
+                    "hasLink": true,
+                    "link": "http://example.com/"
+                },
+                {
+                    "cols": [
+                        {
+                            "value": "09:15 - 09:30"
+                        },
+                        {
+                            "value": "1-1"
+                        },
+                        {
+                            "value": "Badrutt Palace Hotel<br/>Bay West Hotel"
+                        },
+                        {
+                            "value": "Dunja Berger<br/>Sara Quinn"
+                        },
+                        {
+                            "value": "Hilton - Table 13"
+                        },
+                        {
+                            "value": "82%"
+                        }
+                    ],
+                    "hasLink": true,
+                    "link": "http://example.com/"
+                },
+                {
+                    "cols": [
+                        {
+                            "value": "09:30 - 10:20"
+                        },
+                        {
+                            "value": "Workshop"
+                        },
+                        {
+                            "value": "Catalonia Tourist Board"
+                        },
+                        {
+                            "value": "Yacht Charter in the Ballearic Sea"
+                        },
+                        {
+                            "value": "Hilton - Seminar Room 2"
+                        },
+                        {
+                            "value": "-"
+                        }
+                    ],
+                    "hasLink": true,
+                    "link": "http://example.com/"
+                },
+                {
+                    "cols": [
+                        {
+                            "value": "10:30 - 10:45"
+                        },
+                        {
+                            "value": "1-1"
+                        },
+                        {
+                            "value": "Espirirt De France<br/>Grand Hotel Cavour"
+                        },
+                        {
+                            "value": "Laura Panacione<br/>Ralph de Boer"
+                        },
+                        {
+                            "value": "Hilton - Table 8"
+                        },
+                        {
+                            "value": "77%"
+                        }
+                    ],
+                    "selected": true,
+                    "hasLink": true,
+                    "link": "http://example.com/"
+                },
+                {
+                    "cols": [
+                        {
+                            "value": "10:45 - 11:00"
+                        },
+                        {
+                            "value": "1-1"
+                        },
+                        {
+                            "value": "Germain Hotel de Friss"
+                        },
+                        {
+                            "value": "Frank de Latour"
+                        },
+                        {
+                            "value": "Hilton - Table 32"
+                        },
+                        {
+                            "value": "85%"
+                        }
+                    ],
+                    "hasLink": true,
+                    "link": "http://example.com/"
+                }
+            ]
+        }
+    }
+}

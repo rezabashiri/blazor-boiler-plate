@@ -1,0 +1,7 @@
+<div class="menu{% if isActive %} active{% endif %}">
+    <ul>
+    {% for item in menuItems %}
+        <li><a href="{{ item.link }}">{{ item.text }}</a></li>
+    {% endfor %}
+    </ul>
+</div>

@@ -1,0 +1,19 @@
+/* Tabs
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.tabs { display: flex; }
+
+.tab {
+    border-right: .2rem solid color("primary");
+    cursor: pointer;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    transition: color $transition-default $animation-speed-fast;
+    &.active { color: color("primary"); }
+    &:hover,
+    &:focus { color: color("darker-purple"); }
+}
+
+.tab:last-child { border-right: 0; }

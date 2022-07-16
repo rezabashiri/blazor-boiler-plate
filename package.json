@@ -1,0 +1,52 @@
+{
+    "fractal": {
+        "main": "fractal.config.js"
+    },
+    "scripts": {
+        "ui-lib-start": "fractal start --sync",
+        "ui-lib-twig-export": "fractal export --output ui-lib/dist/twig",
+        "ui-lib-build": "fractal build",
+        "src-build": "npm-run-all --parallel css-compile* --sequential css-prefix* css-minify* fontello-dist* js-concat* ui-lib-twig-export* move-dist*",
+        "css-compile": "sass --style expanded --source-map --embed-sources ui-lib/src/scss/style.scss ui-lib/dist/css/style.css",
+        "css-prefix": "postcss --config postcss.config.js --replace \"ui-lib/dist/css/*.css\" \"!ui-lib/dist/css/*.min.css\"",
+        "css-minify": "cleancss -O1 --format breakWith=lf --with-rebase --source-map --source-map-inline-sources --output ui-lib/dist/css/style.min.css ui-lib/dist/css/style.css",
+        "fontello-dist": "cpy ui-lib/src/scss/iconography/font/* ui-lib/dist/font",
+        "fontello-install": "fontello-cli install --config ui-lib/src/scss/iconography/config.json --css ui-lib/src/scss/iconography/css --font ui-lib/src/scss/iconography/font",
+        "fontello-web": "fontello-cli open --config ui-lib/src/scss/iconography/config.json",
+        "js-concat": "uglifyjs ui-lib/src/js/*.js --compress -o ui-lib/dist/js/main.min.js",
+        "css-watch": "nodemon --ignore dist/ -e scss -x \"npm run src-build\"",
+        "move-dist": "copyfiles -e \"ui-lib/dist/webui-overrides/*\" -u 2  \"ui-lib/dist/**/*\" src/App/Web/wwwroot"
+    },
+    "devDependencies": {
+        "@frctl/fractal": "^1.5.13",
+        "@frctl/twig": "^1.2.3",
+        "autoprefixer": "10.4.2",
+        "clean-css-cli": "5.5.2",
+        "copyfiles": "^2.4.0",
+        "cpy-cli": "3.1.1",
+        "fontello-cli": "^0.6.2",
+        "karma-css": "git+https://git@github.com/accentdesign/karma-css.git#sass",
+        "mono-fractal": "^1.1.2",
+        "nodemon": "2.0.15",
+        "npm-run-all": "4.1.5",
+        "postcss-cli": "9.1.0",
+        "postcss-discard-comments": "^2.0.4",
+        "sass": "1.49.8",
+        "uglify-js": "3.4.9"
+    },
+    "browserslist": [
+        "last 1 major version",
+        ">= 1%",
+        "Chrome >= 45",
+        "Firefox >= 38",
+        "Edge >= 12",
+        "Explorer >= 10",
+        "iOS >= 9",
+        "Safari >= 9",
+        "Android >= 4.4",
+        "Opera >= 30"
+    ],
+    "dependencies": {
+        "postcss": "^8.4.8"
+    }
+}

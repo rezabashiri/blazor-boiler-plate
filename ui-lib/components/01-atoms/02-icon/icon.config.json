@@ -1,0 +1,115 @@
+{
+    "title": "Icon",
+    "label": "Iconography",
+    "default": "progress-0",
+    "variants": [
+        {
+            "name": "progress-0",
+            "label": "Progress"
+        },
+        {
+            "name": "search",
+            "label": "Search"
+        },
+        {
+            "name": "left-open",
+            "label": "Chevron (Left)"
+        },
+        {
+            "name": "right-open",
+            "label": "Chevron (Right)"
+        },
+        {
+            "name": "lock",
+            "label": "Lock"
+        },
+        {
+            "name": "lock-reload",
+            "label": "Lock (Reload)"
+        },
+        {
+            "name": "lock-open-alt",
+            "label": "Lock (Open)"
+        },
+        {
+            "name": "ok",
+            "label": "OK"
+        },
+        {
+            "name": "cancel",
+            "label": "Cancel"
+        },
+        {
+            "name": "user",
+            "label": "User"
+        },
+        {
+            "name": "regenerate",
+            "label": "Regenerate"
+        },
+        {
+            "name": "right-arrow",
+            "label": "Arrow (Right)"
+        },
+        {
+            "name": "left-arrow",
+            "label": "Arrow (Left)"
+        },
+        {
+            "name": "up-arrow",
+            "label": "Arrow (Up)"
+        },
+        {
+            "name": "down-arrow",
+            "label": "Arrow (Down)"
+        },
+        {
+            "name": "mail",
+            "label": "Mail"
+        },
+        {
+            "name": "left-arrow-large",
+            "label": "Large Arrow (Left)"
+        },
+        {
+            "name": "right-arrow-large",
+            "label": "Large Arrow (Right)"
+        },
+        {
+            "name": "edit",
+            "label": "Edit"
+        },
+        {
+            "name": "trash",
+            "label": "Trash"
+        },
+        {
+            "name": "attention",
+            "label": "Attention"
+        },
+        {
+            "name": "user-plus",
+            "label": "Add Buyer"
+        },
+        {
+            "name": "user-times",
+            "label": "Remove Buyer"
+        },
+        {
+            "name": "attention-alt",
+            "label": "Attention Alt"
+        },
+        {
+            "name": "print",
+            "label": "Print"
+        },
+        {
+            "name": "plus",
+            "label": "Plus"
+        },
+        {
+            "name": "pencil",
+            "label": "Pencil"
+        }
+    ]
+}

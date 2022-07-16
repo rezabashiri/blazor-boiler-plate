@@ -1,0 +1,38 @@
+/* Skeleton
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Properties for the structural elements (or skeleton) of the website. */
+
+body {
+    overflow-x: hidden;
+    position: relative;
+}
+
+.container-fluid { width: calc(100% - 4rem); }
+
+.wrapper {
+    background-color: color("white");
+    border-radius: .5rem;
+    box-shadow: 2rem 2rem 4rem 0 rgba(0, 0, 0, .1);
+    overflow: hidden;
+}
+
+/* Desktop HD (Extra Large) screen sizes */
+@include media-breakpoint-up(xl) {
+    .offset-xl-0 { margin-left: 0; }
+}
+
+/* Desktop / Tablet Landscape (Large) screen sizes */
+@include media-breakpoint-up(lg) {
+    .offset-lg-0 { margin-left: 0; }
+}
+
+/* Tablet Portrait (Medium) screen sizes */
+@include media-breakpoint-up(md) {
+    .offset-md-0 { margin-left: 0; }
+}
+
+/* Phablet/Mobile Landscape (Small) screen sizes */
+@include media-breakpoint-up(sm) {
+    .offset-sm-0 { margin-left: 0; }
+}

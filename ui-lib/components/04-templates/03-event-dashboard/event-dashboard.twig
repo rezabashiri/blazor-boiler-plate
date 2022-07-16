@@ -1,0 +1,84 @@
+<body class="js no-touch t-event-dashboard">
+    {% include '@header' %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-8">
+                {% include '@breadcrumb' %}
+            </div>
+            <div class="col-4 text-right">
+                <p class="small">Welcome back <strong>Geoff</strong>. You last logged in at 13:39 on 04 Jun 19</p>
+            </div>
+        </div>
+        <div class="row align-items-center mb-1">
+            <div class="col-8">
+                {% include '@heading' with { headingText: eventsHeadingText } %}
+                {% include '@paragraph' with { paraText: eventsParaText } %}
+            </div>
+            <div class="col-4 text-right">
+                <button class="button button-iconised"><i class="icon-retweet"></i>Reload Data</button>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-12">
+                <div class="d-flex">
+                    <div class="stat-group">
+                        <div class="stat c-green">
+                            <span>3</span>
+                            <span>Meeting Venue</span>
+                        </div>
+                        <div class="stat c-green">
+                            <span>135</span>
+                            <span>Tables</span>
+                        </div>
+                        <div class="stat c-green">
+                            <span>202</span>
+                            <span>Buyers</span>
+                        </div>
+                        <div class="stat c-green">
+                            <span>170</span>
+                            <span>Suppliers</span>
+                        </div>
+                        <div class="stat c-green">
+                            <span>28</span>
+                            <span>Workshops</span>
+                        </div>
+                    </div>
+                    <div class="stat-group">
+                        <div class="stat">
+                            <span>0</span>
+                            <span>Meetings Scheduled</span>
+                        </div>
+                        <div class="stat">
+                            <span>0</span>
+                            <span>Workshop Places Scheduled</span>
+                        </div>
+                    </div>
+                    <div class="stat-group">
+                        <div class="stat c-orange">
+                            <span>0%</span>
+                            <span>Average Meeting Score</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-12">
+                <div class="d-flex">
+                    <div class="button-group">
+                        <button class="button">Add Event Rules</button>
+                        <button class="button">Edit Slot Priorities</button>
+                        <button class="button">Generate Schedules</button>
+                        <button class="button button-disabled">Reschedule Unbooked Meetings</button>
+                        <button class="button button-disabled">Approve Schedules</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                {% include '@table' %}
+            </div>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,17 @@
+/* Attendee Details
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.attendee-details {
+    display: flex;
+    flex-direction: column;
+
+    p {
+        margin-bottom: 0;
+    }
+
+    &:not(:first-of-type) {
+        border-left: 1px solid $attendee-detail-divider-color;
+        margin-left: 2rem;
+        padding-left: 2rem;
+    }
+}

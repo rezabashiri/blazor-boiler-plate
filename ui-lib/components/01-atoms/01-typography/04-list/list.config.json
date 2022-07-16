@@ -1,0 +1,32 @@
+{
+    "title": "List",
+    "label": "Lists",
+    "context": {
+        "listItems": [
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            }
+        ]
+    },
+    "default": "unordered",
+    "variants": [
+        {
+            "name": "unordered",
+            "label": "Unordered"
+        },
+        {
+            "name": "ordered",
+            "label": "Ordered"
+        }
+    ],
+    "status": "exported"
+}

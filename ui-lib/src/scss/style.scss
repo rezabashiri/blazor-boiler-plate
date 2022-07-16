@@ -1,0 +1,44 @@
+/*==== This single SCSS output file is intended to ONLY @import other files. ====*/
+
+/*==== 01 - Boilerplate: defining the base, abstract elements and meixins of our styles ====*/
+
+/* Karma CSS: the foundation of our styles */
+/* Overriding Karma CSS and setting your custom variables */
+@import "01-boilerplate/variables";
+
+@import "../../../node_modules/karma-css/scss/variables";
+@import "../../../node_modules/karma-css/scss/import";
+
+@import "01-boilerplate/spacing";
+@import "01-boilerplate/skeleton";
+
+
+/*==== Atomic Design Framework: Custom components and overrides of Karma CSS boilerplate where required ====*/
+/*==== 02 - Atoms: defining the basic physical building block HTML elements ====*/
+@import "02-atoms/typography";
+@import "iconography/css/animation";
+@import "02-atoms/buttons";
+@import "02-atoms/tabs";
+
+
+/*==== 03 - Molecules: atoms combined to form micro components ====*/
+@import "03-molecules/attendee-details";
+@import "03-molecules/forms";
+@import "03-molecules/tables";
+@import "03-molecules/menu";
+@import "03-molecules/stat";
+@import "03-molecules/table-header";
+@import "03-molecules/wrapper";
+
+
+/*==== 5 - Organisms: atoms & molecules combined to form complete components/modules ====*/
+@import "04-organisms/header";
+@import "04-organisms/modal";
+
+
+/*==== 6 - Templates: organisms combined to form pages ====*/
+@import "05-templates/login";
+
+
+/* Karma CSS Utilities */
+@import "../../../node_modules/karma-css/scss/utilities";

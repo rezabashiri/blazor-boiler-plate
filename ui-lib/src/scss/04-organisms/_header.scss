@@ -1,0 +1,22 @@
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header {
+    align-items: center;
+    background-color: color("white");
+    box-shadow: 0 .2rem .5rem 0 rgba(0, 0, 0, .05);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    padding: 1rem 3rem;
+    img {
+        height: 4rem;
+        width: auto;
+    }
+    span {
+        color: color("primary");
+        font-size: $h1-font-size;
+        margin-left: 1rem;
+    }
+    .button { margin-left: 1.5rem; }
+}

@@ -1,0 +1,19 @@
+{
+    "title": "Modal",
+    "context": {
+        "modalHeading": "This is a modal!",
+        "modalPara": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "modalButtonText": "Button Text",
+        "modalButtonIcon": "ok"
+    },
+    "variants": [
+        {
+            "name": "Form",
+            "context": {
+                "modalHeading": "Event Rules",
+                "modalButtonText": "Update",
+                "modalSecondaryButtonText": "Cancel"
+            }
+        }
+    ]
+}

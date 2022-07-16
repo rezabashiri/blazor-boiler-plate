@@ -1,0 +1,15 @@
+{
+    "title": "Login",
+    "context": {
+        "loginHeadingText": "Hosted Buyer<br />Scheduling",
+        "loginEmailLabel": "Email Address",
+        "loginEmailName": "email",
+        "loginEmailPlaceholder": "Enter Email Address",
+        "loginPasswordLabel": "Password",
+        "loginPasswordName": "password",
+        "loginPasswordPlaceholder": "Enter Password",
+        "loginButtonClearText": "Forgotten Password?",
+        "loginButtonText": "Login"
+    },
+    "status": "exported"
+}

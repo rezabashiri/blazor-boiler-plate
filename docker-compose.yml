@@ -1,0 +1,40 @@
+version: '3.4'
+
+services:
+ 
+  app.db:
+    image: postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: Hangfire
+    ports:
+      - 5432:5432
+  
+  identity.db:
+    image: postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_PASSWORD: 123
+
+  openidconnectserver.api:
+    image: ${DOCKER_REGISTRY-}openidconnectserverapi
+    build:
+      context: .
+      dockerfile: src/Authentication/OpenIdConnectServer.Api/Dockerfile
+    depends_on:
+      - identity.db
+  
+  app.web:
+    image: ${DOCKER_REGISTRY-}appweb
+    build:
+      context: .
+      dockerfile: src/App/Web/Dockerfile
+    depends_on: 
+      - app.db
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080

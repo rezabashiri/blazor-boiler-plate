@@ -1,0 +1,49 @@
+{
+    "title": "Input",
+    "label": "Text Inputs",
+    "context": {
+        "inputLabel": "Basic Text Input",
+        "inputName": "basicText",
+        "inputPlaceholder": "Enter text here",
+        "inputFullWidth": false
+    },
+    "variants": [
+        {
+            "name": "Email",
+            "context": {
+                "inputLabel": "Email Input",
+                "inputName": "email",
+                "inputPlaceholder": "joebloggs@example.com"
+            }
+        },
+        {
+            "name": "Password",
+            "context": {
+                "inputLabel": "Password Input",
+                "inputName": "password"
+            }
+        },
+        {
+            "name": "Textarea",
+            "context": {
+                "inputLabel": "Textarea",
+                "inputName": "textarea"
+            }
+        },
+        {
+            "name": "Date",
+            "context": {
+                "inputLabel": "Date Input",
+                "inputName": "date"
+            }
+        },
+        {
+            "name": "Iconised",
+            "context": {
+                "inputIcon": "search",
+                "inputName": "search",
+                "inputPlaceholder": "Search"
+            }
+        }
+    ]
+}

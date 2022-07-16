@@ -1,0 +1,114 @@
+/* Variables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/*
+* start with a copy of the current varables file:
+* https://github.com/AccentDesign/karma-css/blob/master/scss/_variables.scss
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600|Source+Sans+Pro:300,400,600,700&display=swap");
+
+$base-font-size:                1.6rem !default;
+$base-line-height:              1.5 !default;
+
+$header-font-family:            "Source Sans Pro", sans-serif !default;
+
+$h1-font-size:                  2.8rem !default;
+
+$h1-margin:                     0 0 1rem !default;
+
+$strong-font-weight:            600 !default;
+$lead-font-weight:              600 !default;
+
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1280px
+) !default;
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1240px
+) !default;
+
+$grid-gutter-width:             20px !default;
+
+$colors: (
+    "primary":                  rgb(75, 31, 207),
+    "secondary":                rgb(240, 240, 240),
+    "dark-gray":                rgb(153, 153, 153),
+    "light-gray":               rgb(242, 242, 242),
+    "lighter-gray":             rgb(245, 245, 245),
+    "off-white":                rgb(250, 250, 250),
+    "white":                    rgb(255, 255, 255),
+    "dark-purple":              rgb(59, 24, 163),
+    "darker-purple":            rgb(126, 122, 153),
+    "red":                      rgb(197, 71, 54),
+    "green":                    rgb(70, 195, 123),
+    "orange":                   rgb(243, 183, 96),
+    "light-green":              rgb(200, 237, 203),
+    "light-red":                rgb(228, 204, 202)
+) !default;
+
+$body-background:               map-get($colors, "light-gray") !default;
+$font-color:                    rgb(84, 84, 84) !default;
+
+$border-color:                  map-get($colors, "secondary") !default;
+
+$animation-speed-slow:          700ms !default;
+$animation-speed-fast:          400ms !default;
+
+$transition-default:            cubic-bezier(.39, .575, .565, 1) !default; // easeOutSine
+
+$global-radius:                 1rem !default;
+$muted-opacity:                 .4 !default;
+
+$link-color:                    map-get($colors, "primary") !default;
+$link-color-hover:              map-get($colors, "dark-purple") !default;
+$link-transition:               color $transition-default $animation-speed-fast !default;
+
+$ul-list-padding-left:          2.5rem !default;
+$ul-list-style:                 circle outside !default;
+
+$ol-list-padding-left:          2.5rem !default;
+$ol-list-style:                 decimal outside !default;
+
+$buttons: (
+    "primary":                  map-get($colors, "primary") map-get($colors, "white"),
+    "secondary":                map-get($colors, "secondary") map-get($colors, "darker-purple"),
+) !default;
+
+$button-font-size:              1.4rem !default;
+$button-padding-x:              2rem !default;
+$button-transition:             all $transition-default $animation-speed-fast !default;
+
+$button-default-border-color:   map-get($colors, "primary") !default;
+$button-default-bg-color:       map-get($colors, "primary") !default;
+$button-default-font-color:     map-get($colors, "white") !default;
+
+$input-border-radius:           1rem !default;
+$input-placeholder-color:       rgb(119, 119, 119) !default;
+$input-transition:              all $transition-default $animation-speed-fast !default;
+
+$input-border-color-focus:      map-get($colors, "primary") !default;
+
+$table-background-color:        map-get($colors, "white") !default;
+$table-cell-padding:            1.5rem 2rem !default;
+$table-font-size:               1.4rem !default;
+$table-headed-color:            rgb(255, 255, 255) !default;
+$table-hover-color:             map-get($colors, "secondary") !default;
+
+$attendee-detail-divider-color: rgb(206, 206, 206);
+
+$z-layers: (
+    "basement":                 -1,
+    "ground-floor":             0,
+    "first-floor":              1,
+    "second-floor":             2,
+    "third-floor":              3,
+    "roof":                     10,
+) !default;

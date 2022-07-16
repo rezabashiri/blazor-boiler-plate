@@ -1,0 +1,119 @@
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+table {
+    @extend .table-headed;
+    @extend .table-bordered;
+}
+
+th {
+    color: color("darker-purple");
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+tr {
+    transition: background-color $transition-default $animation-speed-fast;
+    &:first-child td { border-top-color: color("secondary"); }
+    &.row-link,
+    &.dashboard-row-link {
+        cursor: pointer;
+        &:focus,
+        &:hover { background-color: color("lighter-gray"); }
+    }
+    &.selected { background-color: lighten(color("green"), 20%); }
+    &.warning { background-color: lighten(color("red"), 20%); }
+    &:focus .button,
+    &:hover .button { opacity: 1; }
+    .button:not(.row-action-button) {
+        border-radius: 50%;
+        color: color("primary");
+        opacity: 0;
+        padding: .3rem .3rem .3rem .4rem;
+        position: absolute;
+        right: 2rem;
+        transition: opacity $transition-default $animation-speed-fast;
+    }
+}
+
+td:last-child { padding: 1rem 0 0; }
+
+.tabbed-table {
+    display: none;
+    &.active { display: table; }
+}
+
+/* Table icon style - nested within table */
+.table-icon {
+    font-size: 2.3rem;
+}
+
+.td-row-spacer {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.non-clickable-icon-span {
+    margin-left: .2em;
+    vertical-align: super;
+}
+
+.td-meeting-score {
+    margin-right: .85em;
+    vertical-align: super;
+}
+
+// Specific 'scrollable' table styles
+.scrollable-table-header {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.scrollable-table-header tr {
+    display: flex;
+    width: 100%;
+}
+
+.scrollable-table-header th {
+    flex-basis: 100%;
+    flex-grow: 2;
+}
+
+.scrollable-table-body {
+    display: block;
+    max-height: 50vh;
+    overflow-y: auto;
+    position: relative;
+    width: 100%;
+}
+
+.scrollable-table-body tr {
+    display: flex;
+    width: 100%;
+}
+
+.scrollable-table-body td {
+    display: block;
+    flex-basis: 100%;
+    flex-grow: 2;
+    text-align: left;
+}
+
+.scrollable-table-body td:last-child {
+    padding: 1.5rem 2rem;
+}
+
+.modal-table-header-padding-left {
+    padding-left: 1.8rem;
+}
+
+.adjusted-padding-left-xs {
+    padding-left: .1rem;
+}
+
+.adjusted-padding-left-sm {
+    padding-left: .65rem;
+}

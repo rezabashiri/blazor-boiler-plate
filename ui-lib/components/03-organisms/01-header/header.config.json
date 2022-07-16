@@ -1,0 +1,24 @@
+{
+    "title": "Header",
+    "context": {
+        "usersText": "Users",
+        "usersLink": "http://example.com/",
+        "userName": "Geoff Somner",
+        "isActive": false,
+        "menuItems": [
+            {
+                "text": "Edit Profile",
+                "link": "http://example.com/"
+            },
+            {
+                "text": "Change Password",
+                "link": "http://example.com/"
+            },
+            {
+                "text": "Logout",
+                "link": "http://example.com/"
+            }
+        ]
+    },
+    "status": "exported"
+}

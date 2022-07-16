@@ -1,0 +1,27 @@
+{
+    "title": "Button",
+    "label": "Buttons",
+    "context": {
+        "buttonText": "Button Text"
+    },
+    "variants": [
+        {
+            "name": "Secondary"
+        },
+        {
+            "name": "Clear"
+        },
+        {
+            "name": "Iconised",
+            "context": {
+                "buttonIcon": "ok"
+            }
+        },
+        {
+            "name": "Disabled"
+        },
+        {
+            "name": "Important"
+        }
+    ]
+}

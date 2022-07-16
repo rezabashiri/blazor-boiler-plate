@@ -1,0 +1,35 @@
+/* Stat
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.stat-group {
+    display: flex;
+    margin-right: 6rem;
+    &:last-child { margin-right: 0; }
+}
+
+.stat {
+    background-color: color("white");
+    border-radius: .5rem;
+    box-shadow: 0 .2rem .5rem 0 rgba(0, 0, 0, .05);
+    color: color("primary");
+    display: inline-flex;
+    flex-direction: column;
+    font-family: "Source Sans Pro", sans-serif;
+    height: 14rem;
+    justify-content: center;
+    margin-right: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    width: 14rem;
+    &:last-child { margin-right: 0; }
+    span:first-child {
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    span:last-child {
+        font-size: 1.2rem;
+        font-weight: 600;
+        line-height: 1.15;
+        text-transform: uppercase;
+    }
+}

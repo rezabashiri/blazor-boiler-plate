@@ -1,0 +1,53 @@
+/* Forms
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+label {
+    font-size: 1.4rem;
+    margin-bottom: .7rem;
+    &.inline-label {
+        padding-right: 1rem;
+        width: 18rem;
+    }
+}
+
+::placeholder { font-style: italic; }
+
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+    appearance: none;
+    min-width: 28rem;
+    &.small {
+        min-width: initial;
+        width: 12rem;
+    }
+}
+
+textarea { min-height: 14rem; }
+
+.checkbox,
+.radio {
+    display: inline-block;
+    font-weight: $base-font-weight;
+    margin-right: 2rem;
+}
+
+input[type="checkbox"],
+input[type="radio"] { display: inline; }
+
+.input-iconised {
+    position: relative;
+    input { padding-right: 3rem; }
+    i {
+        position: absolute;
+        top: 50%;
+        right: .8rem;
+        transform: translateY(-50%);
+    }
+}

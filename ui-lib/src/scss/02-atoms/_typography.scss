@@ -1,0 +1,23 @@
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+mark {
+    background-color: color("secondary");
+    padding: 0 .2rem;
+}
+
+strong { color: color("primary"); }
+
+ul,
+ol {
+    li { margin-bottom: .5rem; }
+}
+
+.breadcrumb {
+    font-size: 1.5rem;
+    i {
+        color: color("primary");
+        font-size: 1.2rem;
+        margin: 0 .3rem 0 .6rem;
+    }
+}

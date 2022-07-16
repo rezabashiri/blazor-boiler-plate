@@ -1,0 +1,16 @@
+{
+    "title": "Tabs",
+    "context": {
+        "tabs": [
+            {
+                "text": "Buyers"
+            },
+            {
+                "text": "Suppliers"
+            },
+            {
+                "text": "Workshops"
+            }
+        ]
+    }
+}

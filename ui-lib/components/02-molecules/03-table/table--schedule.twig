@@ -1,0 +1,26 @@
+<div class="wrapper">
+    {% include '@table-header--plain' with {
+            thText: table.tableText,
+            thDescription: table.tableDescription
+    } %}
+    <table class="table">
+        <thead>
+            <tr>
+                {% for header in table.headers %}
+                    <th>{{ header.title }}</th>
+                {% endfor %}
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in table.rows %}
+                <tr {% if row.hasLink %}class="row-link" data-href="{{ row.link }}"{% endif %}>
+                    {% for col in row.cols %}
+                        <td>{{ col.value }}</td>
+                    {% endfor %}
+                    <td>{% if row.hasLink %}<span class="button button-outline"><i class="icon-right-open"></i></span>{% endif %}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>

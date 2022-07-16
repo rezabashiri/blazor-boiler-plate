@@ -1,0 +1,20 @@
+{
+    "title": "Menu",
+    "context": {
+        "isActive": true,
+        "menuItems": [
+            {
+                "text": "Edit Profile",
+                "link": "http://example.com/"
+            },
+            {
+                "text": "Change Password",
+                "link": "http://example.com/"
+            },
+            {
+                "text": "Logout",
+                "link": "http://example.com/"
+            }
+        ]
+    }
+}

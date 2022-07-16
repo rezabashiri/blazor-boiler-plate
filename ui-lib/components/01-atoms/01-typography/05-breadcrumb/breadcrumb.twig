@@ -1,0 +1,9 @@
+<div class="breadcrumb">
+{% for item in breadcrumbItems %}
+    {% if item.link %}
+        <a href="{{ item.link }}">{{ item.text }}</a><i class="icon-right-dir"></i>
+    {% else %}
+        <span>{{ item.text }}</span>
+    {% endif %}
+{% endfor %}
+</div>

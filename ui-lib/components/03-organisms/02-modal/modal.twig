@@ -1,0 +1,10 @@
+<div class="modal">
+    <div class="modal-dialog">
+        {% include '@heading--h2' with { headingText: modalHeading } %}
+        {% include '@paragraph' with { paraText: modalPara } %}
+        {% include '@button--iconised' with {
+            buttonText: modalButtonText,
+            buttonIcon: modalButtonIcon
+        } %}
+    </div>
+</div>

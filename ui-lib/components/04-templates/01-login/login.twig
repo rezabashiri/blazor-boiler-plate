@@ -1,0 +1,29 @@
+<body class="js no-touch t-login">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-6">
+                <div class="t-login-panel">
+                    {% include '@heading' with { headingText: loginHeadingText } %}
+                </div>
+            </div>
+            <div class="offset-1 col-4">
+                {% include '@input--email' with {
+                    inputLabel: loginEmailLabel,
+                    inputName: loginEmailName,
+                    inputPlaceholder: loginEmailPlaceholder,
+                    inputFullWidth: true
+                } %}
+                {% include '@input--password' with {
+                    inputLabel: loginPasswordLabel,
+                    inputName: loginPasswordName,
+                    inputPlaceholder: loginPasswordPlaceholder,
+                    inputFullWidth: true
+                } %}
+                <div class="d-flex justify-content-between">
+                    {% include '@button--clear' with { buttonText: loginButtonClearText } %}
+                    {% include '@button' with { buttonText: loginButtonText } %}
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

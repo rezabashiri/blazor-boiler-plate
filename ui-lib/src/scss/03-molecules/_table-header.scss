@@ -1,0 +1,41 @@
+/* Table Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.table-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    h2,
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 0;
+        text-transform: uppercase;
+    }
+    input[type="text"] { margin-bottom: 0; }
+}
+
+.th-width-xs {
+    width: 10%;
+}
+
+.th-width-sm {
+    width: 15%;
+}
+
+.th-width-md {
+    width: 20%;
+}
+
+.th-width-lg {
+    width: 30%;
+}
+
+.th-width-xl {
+    width: 35%;
+}
+
+.th-width-xxl {
+    width: 40%;
+}

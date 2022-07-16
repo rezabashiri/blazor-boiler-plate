@@ -1,0 +1,490 @@
+{
+    "title": "Event Dashboard",
+    "context": {
+        "usersText": "Users",
+        "usersLink": "http://example.com/",
+        "userName": "Geoff Somner",
+        "isActive": false,
+        "menuItems": [
+            {
+                "text": "Edit Profile",
+                "link": "http://example.com/"
+            },
+            {
+                "text": "Change Password",
+                "link": "http://example.com/"
+            },
+            {
+                "text": "Logout",
+                "link": "http://example.com/"
+            }
+        ],
+        "breadcrumbItems": [
+            {
+                "text": "Events",
+                "link": "http://example.com/"
+            },
+            {
+                "text": "Event Dashboard"
+            }
+        ],
+        "eventsHeadingText": "PRIVATE MICE Vienna 2019 (Austria)",
+        "eventsParaText": "23rd Sept - 26th Sept 2019",
+        "tableText": "Schedules",
+        "tableTabs": [
+            {
+                "text": "Buyers"
+            },
+            {
+                "text": "Suppliers"
+            },
+            {
+                "text": "Workshops"
+            }
+        ],
+        "tableInputIcon": "search",
+        "tableInputName": "search",
+        "tableInputPlaceholder": "Search",
+        "tableHeader": true,
+        "tables": [
+            {
+                "name": "Buyers",
+                "headers": [
+                    {
+                        "title": "Company"
+                    },
+                    {
+                        "title": "Contact Name"
+                    },
+                    {
+                        "title": "Meetings Scheduled"
+                    },
+                    {
+                        "title": "Average Meeting Score"
+                    },
+                    {
+                        "title": "Avg Edited Meeting Score"
+                    }
+                ],
+                "rows": [
+                    {
+                        "cols": [
+                            {
+                                "value": "A,S Travel"
+                            },
+                            {
+                                "value": "Anetta Szczesna"
+                            },
+                            {
+                                "value": "12/12"
+                            },
+                            {
+                                "value": "86%"
+                            },
+                            {
+                                "value": "-"
+                            }
+                        ],
+                        "hasLink": true,
+                        "link": "http://example.com/"
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "Almont Travel"
+                            },
+                            {
+                                "value": "Daria Guristrimba"
+                            },
+                            {
+                                "value": "4/9"
+                            },
+                            {
+                                "value": "36%"
+                            },
+                            {
+                                "value": "-"
+                            }
+                        ],
+                        "hasLink": true,
+                        "link": "http://example.com/"
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "Blue Line Events"
+                            },
+                            {
+                                "value": "Natalie Cooper"
+                            },
+                            {
+                                "value": "8/10"
+                            },
+                            {
+                                "value": "82%"
+                            },
+                            {
+                                "value": "78%"
+                            }
+                        ],
+                        "hasLink": false
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "ConferenceDirect"
+                            },
+                            {
+                                "value": "Nicolas Verdu"
+                            },
+                            {
+                                "value": "11/12"
+                            },
+                            {
+                                "value": "90%"
+                            },
+                            {
+                                "value": "88%"
+                            }
+                        ],
+                        "hasLink": true,
+                        "link": "http://example.com/"
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "European Conference & Incentive Services"
+                            },
+                            {
+                                "value": "Manuel Roldan"
+                            },
+                            {
+                                "value": "11/12"
+                            },
+                            {
+                                "value": "77%"
+                            },
+                            {
+                                "value": "-"
+                            }
+                        ],
+                        "hasLink": false
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "International Association Of Young Lawyers"
+                            },
+                            {
+                                "value": "Lena Gicquel"
+                            },
+                            {
+                                "value": "10/12"
+                            },
+                            {
+                                "value": "85%"
+                            },
+                            {
+                                "value": "77%"
+                            }
+                        ],
+                        "hasLink": true,
+                        "link": "http://example.com/"
+                    }
+                ]
+            },
+            {
+                "name": "Suppliers",
+                "headers": [
+                    {
+                        "title": "Company"
+                    },
+                    {
+                        "title": "Contact Name"
+                    },
+                    {
+                        "title": "Meetings Scheduled"
+                    },
+                    {
+                        "title": "Average Meeting Score"
+                    },
+                    {
+                        "title": "Avg Edited Meeting Score"
+                    }
+                ],
+                "rows": [
+                    {
+                        "cols": [
+                            {
+                                "value": "A,S Travel"
+                            },
+                            {
+                                "value": "Anetta Szczesna"
+                            },
+                            {
+                                "value": "12/12"
+                            },
+                            {
+                                "value": "86%"
+                            },
+                            {
+                                "value": "-"
+                            }
+                        ],
+                        "hasLink": true,
+                        "link": "http://example.com/"
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "Almont Travel"
+                            },
+                            {
+                                "value": "Daria Guristrimba"
+                            },
+                            {
+                                "value": "4/9"
+                            },
+                            {
+                                "value": "36%"
+                            },
+                            {
+                                "value": "-"
+                            }
+                        ],
+                        "hasLink": true,
+                        "link": "http://example.com/"
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "Blue Line Events"
+                            },
+                            {
+                                "value": "Natalie Cooper"
+                            },
+                            {
+                                "value": "8/10"
+                            },
+                            {
+                                "value": "82%"
+                            },
+                            {
+                                "value": "78%"
+                            }
+                        ],
+                        "hasLink": false
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "ConferenceDirect"
+                            },
+                            {
+                                "value": "Nicolas Verdu"
+                            },
+                            {
+                                "value": "11/12"
+                            },
+                            {
+                                "value": "90%"
+                            },
+                            {
+                                "value": "88%"
+                            }
+                        ],
+                        "hasLink": true,
+                        "link": "http://example.com/"
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "European Conference & Incentive Services"
+                            },
+                            {
+                                "value": "Manuel Roldan"
+                            },
+                            {
+                                "value": "11/12"
+                            },
+                            {
+                                "value": "77%"
+                            },
+                            {
+                                "value": "-"
+                            }
+                        ],
+                        "hasLink": false
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "International Association Of Young Lawyers"
+                            },
+                            {
+                                "value": "Lena Gicquel"
+                            },
+                            {
+                                "value": "10/12"
+                            },
+                            {
+                                "value": "85%"
+                            },
+                            {
+                                "value": "77%"
+                            }
+                        ],
+                        "hasLink": true,
+                        "link": "http://example.com/"
+                    }
+                ]
+            },
+            {
+                "name": "Workshops",
+                "headers": [
+                    {
+                        "title": "Company"
+                    },
+                    {
+                        "title": "Workshop Name"
+                    },
+                    {
+                        "title": "Places Scheduled"
+                    },
+                    {
+                        "title": "Average Placing Score"
+                    },
+                    {
+                        "title": "Avg Edited Placing Score"
+                    }
+                ],
+                "rows": [
+                    {
+                        "cols": [
+                            {
+                                "value": "Algarve Tourist Board"
+                            },
+                            {
+                                "value": "The Joys of the Algarve"
+                            },
+                            {
+                                "value": "19/24"
+                            },
+                            {
+                                "value": "86%"
+                            },
+                            {
+                                "value": "-"
+                            }
+                        ],
+                        "hasLink": true,
+                        "link": "http://example.com/"
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "Almont Travel"
+                            },
+                            {
+                                "value": "Organising Conferences in Spain"
+                            },
+                            {
+                                "value": "24/24"
+                            },
+                            {
+                                "value": "36%"
+                            },
+                            {
+                                "value": "-"
+                            }
+                        ],
+                        "hasLink": true,
+                        "link": "http://example.com/"
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "Blue Line Events"
+                            },
+                            {
+                                "value": "The Bahamas"
+                            },
+                            {
+                                "value": "12/12"
+                            },
+                            {
+                                "value": "82%"
+                            },
+                            {
+                                "value": "78%"
+                            }
+                        ],
+                        "hasLink": false
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "ConferenceDirect"
+                            },
+                            {
+                                "value": "Why ConferenceDirect?"
+                            },
+                            {
+                                "value": "24/24"
+                            },
+                            {
+                                "value": "90%"
+                            },
+                            {
+                                "value": "88%"
+                            }
+                        ],
+                        "hasLink": true,
+                        "link": "http://example.com/"
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "European Conference & Incentive Services"
+                            },
+                            {
+                                "value": "Incentive in Europe"
+                            },
+                            {
+                                "value": "12/12"
+                            },
+                            {
+                                "value": "77%"
+                            },
+                            {
+                                "value": "-"
+                            }
+                        ],
+                        "hasLink": false
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "International Association Of Young Lawyers"
+                            },
+                            {
+                                "value": "Judging Eastern Europe"
+                            },
+                            {
+                                "value": "22/24"
+                            },
+                            {
+                                "value": "85%"
+                            },
+                            {
+                                "value": "77%"
+                            }
+                        ],
+                        "hasLink": true,
+                        "link": "http://example.com/"
+                    }
+                ]
+            }
+        ]
+    }
+}

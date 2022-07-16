@@ -1,0 +1,5 @@
+<div class="tabs">
+{% for tab in tabs %}
+    <span class="tab{% if loop.first %} active{% endif %}" data-tab="{{ tab.text|lower }}">{{ tab.text }}</span>
+{% endfor %}
+</div>

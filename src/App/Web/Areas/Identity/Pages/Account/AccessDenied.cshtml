@@ -1,0 +1,11 @@
+﻿@page
+@{
+    ViewData["Title"] = "Access Denied";
+    Layout = "/Pages/Shared/_LayoutSimple.cshtml";
+}
+
+<h1>@ViewData["Title"]</h1>
+<p>
+    You don't have permission to access this I'm afraid.
+</p>
+<a asp-controller="Home" asp-action="Index"><i class="icon-left-big"></i> Back</a>

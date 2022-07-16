@@ -1,0 +1,221 @@
+{
+    "title": "Events Overview",
+    "context": {
+        "usersText": "Users",
+        "usersLink": "http://example.com/",
+        "userName": "Geoff Somner",
+        "isActive": false,
+        "menuItems": [
+            {
+                "text": "Edit Profile",
+                "link": "http://example.com/"
+            },
+            {
+                "text": "Change Password",
+                "link": "http://example.com/"
+            },
+            {
+                "text": "Logout",
+                "link": "http://example.com/"
+            }
+        ],
+        "eventsHeadingText": "Events",
+        "eventsParaText": "Select an event you wish to work with.",
+        "tableHeader": false,
+        "tables": [
+            {
+                "name": "Events",
+                "headers": [
+                    {
+                        "title": "Event Name"
+                    },
+                    {
+                        "title": "Dates"
+                    },
+                    {
+                        "title": "Status"
+                    }
+                ],
+                "rows": [
+                    {
+                        "cols": [
+                            {
+                                "value": "PRIVATE MICE Vienna 2019 (Austria)"
+                            },
+                            {
+                                "value": "23rd - 26th Sept 2019 "
+                            },
+                            {
+                                "value": "PLANNING"
+                            }
+                        ],
+                        "hasLink": true,
+                        "link": "http://example.com/"
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "T-FEST Luxury Travel Dubai 2020"
+                            },
+                            {
+                                "value": "20th - 22nd Oct 2019"
+                            },
+                            {
+                                "value": "PLANNING"
+                            }
+                        ],
+                        "hasLink": true,
+                        "link": "http://example.com/"
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "PRIVATE Luxury Americas Edition 2019 (Palm Beach, Florida)"
+                            },
+                            {
+                                "value": "24th - 26th June 2019"
+                            },
+                            {
+                                "value": "IN PROGRESS"
+                            }
+                        ],
+                        "hasLink": false
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "M&I Forums Europe Sibenik 2019 (Croatia)"
+                            },
+                            {
+                                "value": "22nd - 24 Aug 2019"
+                            },
+                            {
+                                "value": "IN PROGRESS"
+                            }
+                        ],
+                        "hasLink": false
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "Peak Performers 2019 (Kitzbuhel, Austria)"
+                            },
+                            {
+                                "value": "2nd - 4th June 2019"
+                            },
+                            {
+                                "value": "FINISHED"
+                            }
+                        ],
+                        "hasLink": true,
+                        "link": "http://example.com/"
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "PRIVATE Luxury Europe Edition 2019 (Istanbul, Turkey)"
+                            },
+                            {
+                                "value": "30th May - 1st June 2019"
+                            },
+                            {
+                                "value": "FINISHED"
+                            }
+                        ],
+                        "hasLink": true,
+                        "link": "http://example.com/"
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "MICE Body & Soul Americas 2019 (Scottsdale, USA)"
+                            },
+                            {
+                                "value": "17th - 18th May 2019"
+                            },
+                            {
+                                "value": "FINISHED"
+                            }
+                        ],
+                        "hasLink": true,
+                        "link": "http://example.com/"
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "MICE Body & Soul Europe 2019 (Monchique, Portugal)"
+                            },
+                            {
+                                "value": "24th - 26th June 2019"
+                            },
+                            {
+                                "value": "IN PROGRESS"
+                            }
+                        ],
+                        "hasLink": false
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "M&I Forums Europe Benidorm 2019 (Spain)"
+                            },
+                            {
+                                "value": "22nd - 24th Aug 2019"
+                            },
+                            {
+                                "value": "PLANNING"
+                            }
+                        ],
+                        "hasLink": true,
+                        "link": "http://example.com/"
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "Accor’s Global Meeting Exchange 2019 (Montreux, Switzerland)"
+                            },
+                            {
+                                "value": "2nd - 4th June 2019"
+                            },
+                            {
+                                "value": "FINISHED"
+                            }
+                        ],
+                        "hasLink": true,
+                        "link": "http://example.com/"
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "Amour Asia Pacific 2019 (Langkawi, Malaysia)"
+                            },
+                            {
+                                "value": "30th May - 1st June 2019"
+                            },
+                            {
+                                "value": "FINISHED"
+                            }
+                        ],
+                        "hasLink": true,
+                        "link": "http://example.com/"
+                    },
+                    {
+                        "cols": [
+                            {
+                                "value": "Healthcare Events Forum 2019 (Malmo, Sweden)"
+                            },
+                            {
+                                "value": "17th - 18th May 2019"
+                            },
+                            {
+                                "value": "FINISHED"
+                            }
+                        ],
+                        "hasLink": true,
+                        "link": "http://example.com/"
+                    }
+                ]
+            }
+        ]
+    }
+}
